@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 
 const App = () => (
   <HelmetProvider>
-    <BrowserRouter basename="/lmm-ranking-golden-template">
+    <BrowserRouter basename="/lmm-glowbeam-pro-ranking">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="*" element={<NotFound />} />
